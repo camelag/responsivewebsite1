@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <a href="inicio.html" class="logo"><img src="imgs/logo.png" alt="logo do recanto"><span>.</span></a>
+        <ul class="navigation">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="hosped.html">Hospedagens</a></li>
+
+        </ul>
+    </header>
+
+    <section class="contato">
+        <h2>Fale com a gente!</h2>
+        <p class="text">Tem alguma duvida ou gostaria de agendar uma visita?</p>
+    </section>
+    
+    <section class="sobre">
+        <div class="contentBx">
+            <div class="form">
+                <div class="inputBx">
+                    <input type="text" name="" placeholder="Nome Completo" required>
+                </div>
+                <div class="inputBx">
+                    <input type="text" name="" placeholder="Endereço de email" required>
+                </div>
+                <div class="inputBx">
+                    <input type="text" name="" placeholder="Telefone" required>
+                </div>
+                <div class="inputBx">
+                    <textarea placeholder="Escreva sua duvida aqui!"></textarea>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" name="" value="Enviar">
+                    
+                </div>
+                <hr>
+                <br>
+                <br>
+                <div class="imgBx">
+                    <img src="../aula1/imgs/contatenos.jpg" alt="vaso" width="350" height="350">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header')
+            header.classList.toggle("sticky",window.scrollY > 0)
+    
+        })
+</script>  
+</body>
+</html>
